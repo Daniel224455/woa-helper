@@ -9,15 +9,15 @@
 	<string name="quickboot_title">KHỞI ĐỘNG NHANH WINDOWS</string>
 	<string name="sta_title">NGƯỜI SÁNG TẠO STA</string>
 	<string name="usbhost_title">CHUYỂN CHẾ ĐỘ CHỦ USB</string>
-	<string name="hibernation_title">CHUYỂN ĐỔI NGỦ ĐÔNG</string>
 	<string name="software_title">PHẦN MỀM ARM</string>
-	<string name="rotation_title">CHUYỂN ĐỔI QUAY</string>
-	<string name="autoflash_title">FLASH ANDROID TỰ ĐỘNG</string>
-	<string name="sensors_title">16 NÉM CẢM BIẾN VÀO</string>
-	<string name="atlasos_title">SAO CHÉP ATLASOS/ REVISOS FILE</string>
-	<string name="edge_title">XÓA EDGE</string>
-	<string name="defender_title">XÓA DIỆT VIRUS CỦA WIN</string>
-	<string name="script_title">HỘP CÔNG CỤ SCRIPS</string>
+	<string name="rotation_title">CHUYỂN ĐỔI HƯỚNG QUAY</string>
+	<string name="autoflash_title">TỰ ĐỘNG FLASH ANDROID</string>
+	<string name="atlasos_title">SAO CHÉP FILE ATLASOS/REVISOS</string>
+	<string name="defender_title">XÓA EDGE/WIN DEFENDER</string>
+	<string name="script_title">HỘP CÔNG CỤ SCRIPTS</string>
+	<string name="setup_title">BỘ CÀI FRAMEWORK</string>
+	<string name="dbkp_title">BỘ VÁ NHÂN DUALBOOT</string>
+	<string name="tablet_title">SCRIPT CHẾ ĐỘ MÁY TÍNH BẢNG</string>
 
 	<string name="backup_boot_subtitle">Sao lưu boot.img vào Android và/hoặc Windows</string>
 	<string name="mnt_subtitle">Chuyển đổi gắn phân vùng Windows để xem hoặc chỉnh sửa nội dung bên trong</string>
@@ -29,35 +29,43 @@
 	<string name="quickboot_subtitle_nabu">Cài UEFI và khởi động lại Windows chỉ bằng một cú nhấp chuột</string>
 	<string name="sta_subtitle">Thêm ứng dụng Chuyển sang Android vào Windows</string>
 	<string name="usbhost_subtitle">Thêm tập lệnh vào C:\\Toolbox cho phép bạn chuyển đổi Chế độ máy chủ USB</string>
-	<string name="hibernation_subtitle">Thêm tập lệnh vào C:\\Toolbox cho phép bạn chuyển sang chế độ ngủ đông</string>
 	<string name="software_subtitle">Thêm lối tắt trình duyệt chứa phần mềm ARM vào C:\\Toolbox</string>
 	<string name="rotation_subtitle">Thêm tập lệnh vào C:\\Toolbox cho phép bạn xoay màn hình bằng phím tắt\n(hữu ích cho các thiết bị không có cảm biến hoạt động)</string>
 	<string name="autoflash_subtitle">Thêm tập lệnh vào Windows để tự động flash boot.img Android bất cứ khi nào Windows khởi động</string>
-	<string name="sensors_subtitle">Cái này chỉ cần 1 lần cho 1 số thiết bị nhất định để các cảm biến hoạt động </string>
 	<string name="atlasos_subtitle">Sao chép AtlasOS hoặc ReviOS playbook và Trình hướng dẫn AME vào C:\\Toolbox</string>
-	<string name="edge_subtitle">Thêm tập lệnh vào C:\\Toolbox cho phép bạn xóa Microsoft Edge</string>
-	<string name="defender_subtitle">Thêm tập lệnh vào C:\\Toolbox cho phép bạn xóa Windows Defender</string>
+	<string name="defender_subtitle">Thêm tập lệnh vào C:\\Toolbox cho phép bạn xóa Microsoft Edge / Windows Defender</string>
 	<string name="script_subtitle">Thêm nhiều loại tập lệnh và tweaks vào C:\\Toolbox</string>
-	
-	<string name="backup_boot_question">Có muốn sao lưu boot.img chứa?</string>
-	<string name="mount_question">Hiện file Windows vào /sdcard/Windows?</string>
+	<string name="setup_subtitle">Thêm trình cài đặt cho một số framework vào C:\\Toolbox</string>
+	<string name="dbkp_subtitle">Vá nhân để dualboot một cách dễ dàng</string>
+	<string name="tablet_subtitle">Adds a script to C:\\Toolbox which allows you to toggle tablet mode</string>
+
+	<string name="backup_boot_question">Sao lưu boot.img?</string>
+	<string name="mount_question">Hiện file Windows vào %s?</string>
 	<string name="unmount_question">Không hiện Windows nữa?</string>
 	<string name="dump_modem_question">Có muốn đưa modem1st và modem2st vào phân vùng Windows?</string>
 	<string name="flash_uefi_question">Cài UEFI? \nNếu vậy thì lần khởi động tiếp theo sẽ là trong Windows</string>
 	<string name="quickboot_question">Khởi động nhanh vào Windows?</string>
 	<string name="sta_question">Tạo ứng dụng Chuyển sang Android trong C:\\sta?</string>
 	<string name="usbhost_question">Sao chép tập lệnh Chế độ máy chủ USB vào C:\\Toolbox?</string>
-	<string name="hibernation_question">Sao chép nút chuyển đổi chế độ ngủ đông sang C:\\Toolbox?</string>
 	<string name="software_question">Sao chép phím tắt trình duyệt vào C:\\Toolbox?</string>
 	<string name="rotation_question">Sao chép phím tắt xoay sang C:\\Toolbox?</string>
 	<string name="autoflash_question">Cài đặt tập lệnh tự động cài boot.img vào Windows?</string>
-	<string name="sensors_question">Ném cảm biến vào Windows?</string>
 	<string name="atlasos_question">Tải xuống và di chuyển AtlasOS hoặc ReviOS playbook sang C:\\Toolbox?</string>
-	<string name="edge_question">Sao chép tập lệnh xóa Edge vào C:\\Toolbox?</string>
-	<string name="defender_question">Sao chép tập lệnh gỡ bỏ Defender vào C:\\Toolbox?</string>
-	
+	<string name="defender_question">Sao chép tập lệnh gỡ bỏ Edge / Defender vào C:\\Toolbox?</string>
+	<string name="setup_question">Tải xuống và di chuyển trình cài đặt C++ Redistributables, DirectX, OpenGL, OpenAL, PhysX và XNA vào C:\\Toolbox?\n(có thể mất một thời gian)</string>
+	<string name="dbkp_question">Vá và flash nhân hiện tại của bạn? \n!!!CẤM TIẾP TỤC TRỪ KHI MÁY BẠN LÀ %s!!!</string>
+	<string name="tablet_question">Sao chép script chế độ máy tính bảng vào C:\\Toolbox?</string>
+
 	<string name="wrong">Lỗi ở đâu ý</string>
-	<string name="ntfs">Lỗi rồi, \nWindows không hiện file được.\nYêu cầu được trợ giúp trên Telegram.</string>
+	<string name="mountfail">Lỗi rồi, \nWindows không hiện file được.\nYêu cầu được trợ giúp trên Telegram.</string>
+	<string name="ntfs">NTFS không hỗ trợ \nVui lòng cài module NTFS3G.</string>
+	<string name="internet">Không có kết nối internet. \nHãy kết nối và thử lại.</string>
+	<string name="partition">Không phát hiện phân vùng Windows</string>
+	<string name="internalstorage">Tệp đã được tải vào bộ nhớ trong.</string>
+	<string name="dbkp">Đã vá và flash ảnh khởi động\nẢnh khởi động cũng có thể được tìm thấy ở /sdcard/patched-boot.img.\n Sử dụng %s để chuyển đổi giữa Windows và Android.</string>
+	<string name="op7">thanh trượt thông báo</string>
+	<string name="cepheus">nút trợ lý</string>
+	<string name="nabu">hộp từ tính</string>
 	<string name="reboot">Khởi động lại</string>
 	<string name="cancel">Hủy</string>
 	<string name="mounted">Windows đã hiện</string>
@@ -79,10 +87,13 @@
 	<string name="done">XONG!</string>
 	<string name="mountt">HIỆN</string>
 	<string name="unmountt">KHÔNG HIỆN</string>
-	
+	<string name="update">CẬP NHẬT</string>
+	<string name="update1">Một phiên bản mới khả dụng</string>
+	<string name="update2">Đang cập nhật...</string>
+
 	<string name="last">SAO LƯU GẦN NHẤT : %s</string>
 	<string name="slot">VÙNG : %s</string>
-	<string name="ramvalue">BỘ NHỚ : %sGB </string>
+	<string name="ramvalue">BỘ NHỚ : %.2fGB </string>
 	<string name="paneltype">TẤM NỀN : %s</string>
 
 	<string name="guide">HƯỚNG DẪN</string>
@@ -92,15 +103,17 @@
 	<string name="yes">ĐƯỢC</string>
 	<string name="dismiss">BỎ</string>
 	<string name="no">KHÔNG</string>
-	<string name="please_wait">XIN CHỜ...</string>
-	
+	<string name="please_wait">XIN CHỜ…</string>
+
 	<string name="preference1">Buộc sao lưu boot.img khi quickboot (Windows)</string>
 	<string name="preference2">Buộc sao lưu boot.img khi quickboot (Android)</string>
 	<string name="preference3">Sao lưu boot.img nếu không phát hiện thấy gì (Windows)</string>
 	<string name="preference4">Sao lưu boot.img nếu không phát hiện thấy gì (Android)</string>
 	<string name="preference5">Yêu cầu xác nhận cho ô khởi động nhanh QS</string>
-	<string name="preference6">Select language</string>
+	<string name="preference6">Chọn ngôn ngữ</string>
 	<string name="preference7">Tự động gắn Windows khi khởi động thiết bị</string>
 	<string name="preference8">Tắt chức năng kết xuất modem</string>
 	<string name="preference9">Yêu cầu màn hình mở khóa để khởi động nhanh</string>
+	<string name="preference10">Gắn Windows vào /mnt thay vì /sdcard</string>
+	<string name="preference11">Tắt kiểm tra cập nhật ứng dụng</string>
 </resources>
